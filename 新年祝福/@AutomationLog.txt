@@ -1,0 +1,7 @@
+2026-02-17 12:12:07.643 wechat_automation.py[146] get_all_friends_from_contacts -> Can not move cursor. ListControl's BoundingRectangle is (0,0,0,0)[0x0]. SearchProperties: {ControlType: ListControl}
+2026-02-17 12:12:08.650 wechat_automation.py[146] get_all_friends_from_contacts -> Can not move cursor. ListControl's BoundingRectangle is (0,0,0,0)[0x0]. SearchProperties: {ControlType: ListControl}
+2026-02-17 12:12:09.662 wechat_automation.py[146] get_all_friends_from_contacts -> Can not move cursor. ListControl's BoundingRectangle is (0,0,0,0)[0x0]. SearchProperties: {ControlType: ListControl}
+2026-02-17 12:12:10.676 wechat_automation.py[146] get_all_friends_from_contacts -> Can not move cursor. ListControl's BoundingRectangle is (0,0,0,0)[0x0]. SearchProperties: {ControlType: ListControl}
+2026-02-17 12:12:11.688 wechat_automation.py[146] get_all_friends_from_contacts -> Can not move cursor. ListControl's BoundingRectangle is (0,0,0,0)[0x0]. SearchProperties: {ControlType: ListControl}
+2026-02-17 12:12:12.714 wechat_automation.py[146] get_all_friends_from_contacts -> Can not move cursor. ListControl's BoundingRectangle is (0,0,0,0)[0x0]. SearchProperties: {ControlType: ListControl}
+2026-02-17 12:12:13.719 wechat_automation.py[146] get_all_friends_from_contacts -> 

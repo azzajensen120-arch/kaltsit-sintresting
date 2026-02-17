@@ -1,0 +1,74 @@
+
+This file lists modules PyInstaller was not able to find. This does not
+necessarily mean these modules are required for running your program. Both
+Python's standard library and 3rd-party Python packages often conditionally
+import optional modules, some of which may be available only on certain
+platforms.
+
+Types of import:
+* top-level: imported at the top-level - look at these first
+* conditional: imported within an if-statement
+* delayed: imported within a function
+* optional: imported within a try-except-statement
+
+IMPORTANT: Do NOT post this list to the issue-tracker. Use it as a basis for
+            tracking down the missing module yourself. Thanks!
+
+missing module named org - imported by copy (optional)
+missing module named _frozen_importlib_external - imported by importlib._bootstrap (delayed), importlib (optional), importlib.abc (optional), zipimport (top-level)
+excluded module named _frozen_importlib - imported by importlib (optional), importlib.abc (optional), zipimport (top-level)
+missing module named pep517 - imported by importlib.metadata (delayed)
+missing module named grp - imported by shutil (optional), tarfile (optional), pathlib (delayed, optional), subprocess (optional)
+missing module named pwd - imported by posixpath (delayed, conditional), shutil (optional), tarfile (optional), pathlib (delayed, conditional, optional), subprocess (optional)
+missing module named 'urllib.parse' - imported by pathlib (top-level)
+excluded module named email - imported by importlib.metadata (top-level)
+missing module named posix - imported by os (conditional, optional), shutil (conditional), importlib._bootstrap_external (conditional)
+missing module named resource - imported by posix (top-level)
+missing module named pyimod02_importers - imported by F:\WORKSPACE\新年祝福\.venv\Lib\site-packages\PyInstaller\hooks\rthooks\pyi_rth_pkgutil.py (delayed)
+missing module named AppKit - imported by pyperclip (delayed, conditional, optional)
+missing module named Foundation - imported by pyperclip (delayed, conditional, optional)
+missing module named PyQt5 - imported by pyperclip (delayed, conditional, optional)
+missing module named qtpy - imported by pyperclip (delayed, conditional, optional)
+missing module named _posixsubprocess - imported by subprocess (optional)
+missing module named vms_lib - imported by platform (delayed, optional)
+missing module named 'java.lang' - imported by platform (delayed, optional)
+missing module named java - imported by platform (delayed)
+missing module named _winreg - imported by platform (delayed, optional)
+missing module named ctypes._FuncPointer - imported by ctypes (conditional), comtypes._vtbl (conditional)
+missing module named ctypes._CDataType - imported by ctypes (conditional), comtypes._memberspec (conditional), comtypes.automation (conditional)
+missing module named ctypes._CArgObject - imported by ctypes (conditional), comtypes._memberspec (conditional), comtypes.automation (conditional), comtypes._comobject (conditional), comtypes.messageloop (conditional), comtypes.connectionpoints (conditional), comtypes.util (conditional)
+missing module named ctypes._CData - imported by ctypes (conditional), comtypes (conditional), comtypes.util (conditional)
+missing module named olefile - imported by PIL.FpxImagePlugin (top-level), PIL.MicImagePlugin (top-level)
+missing module named typing_extensions - imported by PIL._typing (conditional, optional)
+missing module named 'numpy.typing' - imported by PIL._typing (conditional, optional)
+missing module named 'xml.etree' - imported by PIL.Image (conditional)
+missing module named defusedxml - imported by PIL.Image (optional)
+missing module named 'org.python' - imported by pickle (optional)
+missing module named numpy - imported by comtypes._npsupport (delayed, conditional), uiautomation.uiautomation (delayed, optional), comtypes.test.test_npsupport (optional)
+missing module named wmi - imported by uiautomation.uiautomation (delayed)
+missing module named comtypes.gen.Word - imported by comtypes.gen (optional), comtypes.test.test_word (optional)
+excluded module named unittest - imported by comtypes.test (top-level), comtypes.test.test_BSTR (top-level), comtypes.test.test_DISPPARAMS (top-level), comtypes.test.test_GUID (top-level), comtypes.test.test_QueryService (top-level), comtypes.test.test_agilent (top-level), comtypes.test.test_avmc (top-level), comtypes.test.test_basic (top-level), comtypes.test.test_bctx (top-level), comtypes.test.test_casesensitivity (top-level), comtypes.test.test_classfactory (top-level), comtypes.test.test_clear_cache (top-level), comtypes.test.test_client (top-level), comtypes.test.test_client_dynamic (top-level), comtypes.test.test_client_regenerate_modules (top-level), comtypes.test.test_collections (top-level), comtypes.test.test_comobject (top-level), comtypes.test.test_comserver (top-level), comtypes.test.test_createwrappers (top-level), comtypes.test.test_dict (top-level), comtypes.test.test_dispifc_records (top-level), comtypes.test.test_dispifc_safearrays (top-level), comtypes.test.test_dispinterface (top-level), comtypes.test.test_dyndispatch (top-level), comtypes.test.test_errorinfo (top-level), comtypes.test.test_eventinterface (top-level), comtypes.test.test_excel (top-level), comtypes.test.test_findgendir (top-level), comtypes.test.test_getactiveobj (top-level), comtypes.test.test_hresult (top-level), comtypes.test.test_ienum (top-level), comtypes.test.test_imfattributes (top-level), comtypes.test.test_inout_args (top-level), comtypes.test.test_malloc (top-level), comtypes.test.test_messageloop (top-level), comtypes.test.test_midl_safearray_create (top-level), comtypes.test.test_moniker (top-level), comtypes.test.test_msscript (top-level), comtypes.test.test_npsupport (top-level), comtypes.test.test_outparam (top-level), comtypes.test.test_persist (top-level), comtypes.test.test_pump_events (top-level), comtypes.test.test_puredispatch (top-level), comtypes.test.test_recordinfo (top-level), comtypes.test.test_rot (top-level), comtypes.test.test_safearray (top-level), comtypes.test.test_sapi (top-level), comtypes.test.test_server (top-level), comtypes.test.test_server_register (top-level), comtypes.test.test_shelllink (top-level), comtypes.test.test_showevents (top-level), comtypes.test.test_storage (top-level), comtypes.test.test_stream (top-level), comtypes.test.test_subinterface (top-level), comtypes.test.test_typeannotator (top-level), comtypes.test.test_typeinfo (top-level), comtypes.test.test_urlhistory (top-level), comtypes.test.test_util (top-level), comtypes.test.test_variant (top-level), comtypes.test.test_variant_outparam (top-level), comtypes.test.test_viewobject (top-level), comtypes.test.test_w_getopt (top-level), comtypes.test.test_win32com_interop (top-level), comtypes.test.test_word (top-level)
+missing module named 'win32com.client' - imported by comtypes.test.test_dispinterface (optional), comtypes.test.test_win32com_interop (optional)
+missing module named pythoncom - imported by comtypes.test.test_win32com_interop (optional)
+missing module named 'comtypes.gen.MSHTML' - imported by comtypes.test.test_QueryService (top-level), comtypes.test.test_viewobject (top-level)
+missing module named comtypes.gen.WbemScripting - imported by comtypes.gen (delayed), comtypes.test.test_variant_outparam (delayed)
+missing module named comtypes.gen.urlhistLib - imported by comtypes.gen (top-level), comtypes.test.test_urlhistory (top-level)
+excluded module named test - imported by comtypes.test.test_subinterface (delayed)
+missing module named 'comtypes.gen.PortableDeviceApiLib' - imported by comtypes.test.test_storage (top-level), comtypes.test.test_stream (top-level)
+excluded module named doctest - imported by comtypes.test.test_comserver (top-level), comtypes.test.test_hresult (top-level), comtypes.test.test_showevents (top-level)
+missing module named comtypes.gen.TestLib - imported by comtypes.gen (top-level), comtypes.test.test_server (top-level)
+missing module named comtypes.gen.SpeechLib - imported by comtypes.gen (delayed), comtypes.test.test_client (delayed), comtypes.test.test_sapi (delayed)
+missing module named comtypes.gen.MSVidCtlLib - imported by comtypes.gen (top-level), comtypes.test.test_bctx (top-level), comtypes.test.test_casesensitivity (top-level), comtypes.test.test_getactiveobj (top-level), comtypes.test.test_ienum (delayed), comtypes.test.test_imfattributes (delayed), comtypes.test.test_moniker (top-level), comtypes.test.test_rot (top-level)
+missing module named 'comtypes.gen.ComtypesCppTestSrvLib' - imported by comtypes.test.test_dispifc_records (optional), comtypes.test.test_dispifc_safearrays (optional), comtypes.test.test_midl_safearray_create (optional), comtypes.test.test_recordinfo (optional)
+missing module named comtypes.gen.WindowsInstaller - imported by comtypes.gen (delayed), comtypes.test.test_client (delayed), comtypes.test.test_puredispatch (top-level)
+missing module named 'unittest.mock' - imported by comtypes.test.test_clear_cache (top-level), comtypes.test.test_inout_args (top-level), comtypes.test.test_messageloop (top-level), comtypes.test.test_outparam (top-level)
+missing module named comtypes.gen.TestComServerLib - imported by comtypes.gen (top-level), comtypes.test.TestComServer (top-level), comtypes.test.test_comserver (delayed), comtypes.test.test_npsupport (delayed)
+missing module named 'comtypes.gen.Excel' - imported by comtypes.test.test_excel (optional)
+missing module named 'comtypes.gen.SHDocVw' - imported by comtypes.test.test_eventinterface (delayed)
+missing module named comtypes.gen.Scripting - imported by comtypes.gen (top-level), comtypes.test.test_client (top-level), comtypes.test.test_client_regenerate_modules (top-level), comtypes.test.test_comobject (top-level), comtypes.test.test_dict (top-level), comtypes.test.test_dyndispatch (top-level)
+missing module named win32com - imported by comtypes.test.test_comserver (optional)
+missing module named comtypes.gen.IviScopeLib - imported by comtypes.gen (delayed, optional), comtypes.test.test_agilent (delayed, optional)
+missing module named py2exe - imported by comtypes.test.setup (top-level)
+missing module named 'distutils.core' - imported by comtypes.test.setup (top-level)
+missing module named comtypes.gen.TestDispServerLib - imported by comtypes.gen (top-level), comtypes.test.TestDispServer (top-level)
+missing module named 'numpy.ctypeslib' - imported by comtypes._npsupport (delayed)
